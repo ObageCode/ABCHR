@@ -6,12 +6,12 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
-import org.susi.integration.PizzaServiceApplication;
+import org.susi.integration.HRProxyService;
 import junit.framework.Assert;
 
  
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = PizzaServiceApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@SpringBootTest(classes = HRProxyService.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @ActiveProfiles("test")
 public class EurekaClientApplicationTests {
 
